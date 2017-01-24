@@ -1,0 +1,48 @@
+body, #text {
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+
+
+#content {
+    border: 1px solid orange;
+    width: 50%;
+    height: 50%;
+    position: center;
+    margin: 200px auto;
+    display: block !important;
+}
+
+#text {
+    display: block;
+}
+
+#text #quote {
+    font-family: cursive;
+    font-size: 30px;
+}
+
+#text #quote_title {
+    float: right;
+    font-size: 20px;
+}
+#btn {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: block;
+}
+#btn #quoteBtn {
+    float: right;
+}
+
+#btn #tweetBtn {
+    margin-bottom: -20px;
+}
+
+img {
+    margin: 10px;
+}
